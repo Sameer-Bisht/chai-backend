@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // routes import 
 import userRouter from './routes/user.routes.js'
-import registerUser from "./controllers/user.controller.js";
+import {registerUser} from "./controllers/user.controller.js";
 
 
 // routes declaration 
